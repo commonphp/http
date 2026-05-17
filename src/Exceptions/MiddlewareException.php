@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace CommonPHP\HTTP\Exceptions;
 
-use RuntimeException;
-
-class HttpException extends RuntimeException
+class MiddlewareException extends HttpException
 {
 
 }

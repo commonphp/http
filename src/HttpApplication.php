@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace CommonPHP\HTTP;
 
-class HttpApplication
+use CommonPHP\Runtime\Kernel;
+
+class HttpApplication extends Kernel
 {
 
 }
